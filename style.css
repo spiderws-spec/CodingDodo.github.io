@@ -156,7 +156,7 @@ body.panel-open .topbar button{
     overflow: hidden;
     white-space: normal;
 
-    margin-top: 300px;
+    margin-top: 700px;
     width: calc(100% - 60px);
     margin-right: 30px;
   /* use real height instead of % */
