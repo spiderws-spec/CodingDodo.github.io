@@ -160,7 +160,7 @@ body.panel-open .topbar button{
     width: calc(100% - 60px);
     margin-right: 30px;
   /* use real height instead of % */
-    height: 900px;
+    height: 600px;
 
     grid-column: 1 / -1;
 
