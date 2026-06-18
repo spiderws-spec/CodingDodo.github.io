@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Coiny&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>My Website</title>
+  
+</head>
+
+<body>
+  <div class="logo">
+   <img src="DodoLogo.svg" alt="Logo">
+  </div>
+  <div id="cursor-circle">
+      <div class="inner i1"></div>
+      <div class="inner i2"></div>
+      <div class="inner i3"></div>
+  </div>
+  <div class="topbar">
+      <button onclick="switchPanel('home')">Projects</button>
+      <button onclick="switchPanel('about')">About</button>
+      <button onclick="switchPanel('projects')">Contacts</button>
+  </div>
+  <div id="sidePanel" class="panel">
+      <div id="panelContent"></div>
+      <!-- <h2>Settings</h2>
+      <p>Some content here.</p>
+      <button>Button 1</button>
+      <button>Button 2</button> -->
+  </div>
+  <!-- <header>
+    <h1>My Website</h1>
+  </header>
+  <nav>
+    <a href="#">Home</a>
+    <a href="#">About</a>
+    <a href="#">Contact</a>
+  </nav>
+
+  <main>
+    <h2>Welcome</h2>
+    <p>This is the main content area.</p>
+
+    <button id="myButton">Click Me</button>
+  </main>
+
+  <footer>
+    <p>Copyright © 2026</p>
+  </footer> -->
+  <script src="https://cdn.babylonjs.com/babylon.js"></script>
+  <script src="https://cdn.babylonjs.com/loaders/babylonjs.loaders.min.js"></script>
+  <script src="https://cdn.babylonjs.com/gui/babylon.gui.min.js"></script>
+  <canvas id="renderCanvas"></canvas>
+  <script src="javascript.js" defer></script>
+  
+
+  
+</body>
+
+</html>
